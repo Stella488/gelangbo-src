@@ -1,7 +1,3 @@
-# gelangbo-src
-
-the source code of gelangbo.com
-
 # Source code of my blog
 
 基于 Hugo 和 Github 搭建：
