@@ -91,3 +91,9 @@ comments: true
 1. 执行 `ssh-keygen -t rsa -b 4096 -C "actions-hugo_20240202" -f gh-pages -N ""` 生成 gh-pages 和 gh-pages.pub 两个密钥文件。
 2. 在源码仓库的页面，进入 Settings->Secrets and variables->Actions 页面，点击 **New repository secret** 按钮添加一条私钥，私钥名称设为 **GH_PAGES_KEY** ，私钥内容为 gh-pages 文件的内容。
 3. 在目标仓库的页面，进入 Settings->Deploy keys 页面，点击 **Add deploy key** 按钮添加一条公钥，公钥名称可以随意，这里设为 **GH_PAGES_KEY_PUBLIC** ，公钥内容为 gh-pages.pub 文件的内容。
+
+## 域名
+
+独立域名 <gelangbo.com> 在 <aliyun.com> 上注册，并解析。
+
+![dns](dns.png)
