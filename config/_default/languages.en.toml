@@ -15,8 +15,8 @@ title = "Gelangbo.com"
 [params.author]
   name = "Gelangbo"
   image = "author.png"
-  headline = "A Chinese-English translator"
-  bio = "A little bit about you"
+  headline = "A professional translation and localization service provider. For more information and any query on business cooperation and services, please email us."
+  bio = "Professional translation and localization service provider"
   links = [
     { email = "mailto:translator.stella.li@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
